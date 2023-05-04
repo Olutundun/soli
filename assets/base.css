@@ -2227,9 +2227,19 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 /* section-announcement-bar */
-.announcement-bar {
+.announcement-bar .left{
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
   color: rgb(var(--color-foreground));
+  width: 50%;
+  float: left;
+  background-color: #D3CBB5;
+}
+.announcement-bar .right{
+  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  color: rgb(var(--color-foreground));
+  width: 50%;
+  float: right;
+  background-color: #DEC5DC;
 }
 
 .announcement-bar__link {
